@@ -4,23 +4,65 @@ body {
 
 div {
     margin: auto;
+    border: 4px solid purple;
+    border-radius: 11px;
     width: 50%;
     padding: 10px;
     text-align: center;
     background-color: white;
 }
 
-h1 {
+h1, h2, h3, h4 {
     margin: auto;
+        border: 4px solid purple;
+        border-radius: 11px;
         width: 50%;
         padding: 10px;
         text-align: center;
         background-color: white;
 }
 
+
 table {
-    margin: auto;
-            width: 50%;
-            padding: 10px;
-            text-align: center;
+         margin: auto;
+         width: 50%;
+         padding: 10px;
+         text-align: center;
+}
+#clientProfile {
+     border: 4px solid purple;
+     border-radius: 11px;
+     width: %50;
+     font-size: 18px;
+}
+#clientProfile:hover {
+                 font-family: Arial, sans-serif;
+                 font-size: 24px;
+                 color: blue;
+                 font-weight: bold;
+                 font-style: italic;
+                 text-decoration: underline;
+}
+
+.footer{
+     border-radius: 11px;
+     width: %50;
+}
+.footer > div> div#red-polish {
+background-color:red;
+color:white;
+}
+.footer > div> div#blue-polish {
+background-color:blue;
+color:white;
+}
+.footer > div> div#green-polish {
+background-color:green;
+color:white;
+}
+
+.footer > div > div {
+    width:70px;
+    display: inline;
+
 }
